@@ -1,0 +1,1 @@
+Very simple project to test Spring boot oc deployment 
