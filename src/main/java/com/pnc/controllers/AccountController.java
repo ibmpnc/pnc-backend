@@ -17,7 +17,7 @@ public class AccountController {
     String userName;
     @Value("${spring.datasource.url}")
     String db;
-    @GetMapping("acc")
+    @GetMapping("/acc")
     public String getAccountNumber(){
         log.info(userName);
         log.info(db);
